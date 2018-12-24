@@ -86,9 +86,10 @@ function opposite(number) {
 return -number
 }
 */
+/*        #9    Reverse List Order
+function reverseList(list) {
+  let newList = list.reverse();
 
-const boo = (num1, num2) => {
-   return num1 + num2
+  return newList;
 }
-
-console.log(boo(2,3));
+*/
