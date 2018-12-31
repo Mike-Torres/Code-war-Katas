@@ -93,3 +93,29 @@ function reverseList(list) {
   return newList;
 }
 */
+
+//                                  Total Amount Of Points
+
+/*
+function points(games) {
+  return games.reduce((current, element) => {
+    let arraySplit = element.split(':');
+    return (arraySplit[0] > arraySplit[1]) ? current += 3 : (arraySplit[0] < arraySplit[1]) ? current : current += 1;
+  }, 0);
+}
+*/
+/*
+function points(games) {
+  return games.reduce((acc, val) => {
+    if (val[0] > val[2]) {
+      return acc + 3
+    } else if(val[0] == val[2]) {
+      return acc + 1
+    } else {
+      return acc
+    }
+  }, 0)
+}
+console.log(points);
+
+*/
